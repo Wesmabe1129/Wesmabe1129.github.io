@@ -1,0 +1,389 @@
+.header-container-child,
+.portfolio-child {
+  position: absolute;
+  margin: 0 !important;
+  filter: blur(50px);
+  border-radius: 50%;
+  background: radial-gradient(50% 50%at 50% 50%, #243047);
+}
+.portfolio-child {
+  width: 32.813rem;
+  height: 32.813rem;
+  top: -16.375rem;
+  right: -12.125rem;
+}
+
+.nav-home {
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightslategray);
+  color: var(--color-gray);
+}
+
+
+
+.greeting-child {
+  height: 20.625rem;
+  width: 20.188rem;
+  position: absolute;
+  margin: 0 !important;
+  right: -13.75rem;
+  bottom: -8.062rem;
+  filter: blur(50px);
+  border-radius: 50%;
+  background: radial-gradient(50% 50%at 50% 50%, rgba(152, 153, 156, 0.25));
+}
+.this-is-wilson {
+  color: var(--color-honeydew);
+}
+.hello-this-is-container {
+  display: inline-block;
+  justify-content: center;
+  
+  letter-spacing: 0.1em;
+  /* line-height: 4.813rem; */
+  font-weight: 700;
+  font-family: var(--font-mukta);
+  /* display: inline-block; */
+  max-width: 100%;
+  z-index: 0;
+}
+.hello {
+  color: var(--color-lightslategray);
+}
+.dev-shapes-child {
+  position: absolute;
+  /* top: 0;
+  left: 44.375rem; */
+  filter: blur(50px);
+  border-radius: 50%;
+  background: radial-gradient(50% 50%at 50% 50%, rgba(152, 153, 156, 0.35));
+  height: 18.75rem;
+  width: 18.75rem;
+}
+.dev-shapes {
+  position: absolute; /* Make sure it is positioned absolutely */
+  bottom: -5rem; /* Aligns it at the bottom of the parent */
+  left: -7.1875rem; /* Aligns it to the left of the parent */
+  display: flex; /* Ensure it uses flexbox for positioning items */
+  justify-content: center; /* Center items horizontally if needed */
+}
+.dev-shapes-item {
+  box-shadow: 0 4px 75px 50px rgba(141, 153, 174, 0.3);
+  border-radius: 50%;
+  background-color: var(--color-lightslategray);
+  position: relative; /* Position relative to its parent .dev-shapes */
+}
+.me-1-icon {
+  display: flex;
+  position: absolute;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 0;
+}
+.last-indicator-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.greeting {
+  flex: 1;
+  position: relative;
+}
+.last-indicator-container {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.an-inspired-dev {
+  width: 100%;
+  position: relative;
+  letter-spacing: 0.1em;
+  color: var(--color-white);
+  display: inline-block;
+  max-width: 100%;
+  z-index: 0;
+}
+.indicator-container,
+.introduction {
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  /* align-items: flex-start; */
+  max-width: 100%;
+}
+.interaction {
+  position: absolute;
+  margin: 0 auto;
+  width: 50vw;
+  z-index: 1;
+  
+}
+.introduction {
+  width: 41.188rem;
+  gap: 8.438rem;
+  left: 0;
+}
+.indicator-container {
+  box-sizing: border-box;
+  left: 0;
+  color: var(--color-gray);
+  font-family: var(--font-mukta);
+  z-index: 0;
+}
+
+.portfolio {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(-90deg, #1b263b, #0d1b2a);
+  border: 1px solid var(--color-black);
+  overflow: hidden;
+  flex-direction: column;
+  line-height: normal;
+  letter-spacing: normal;
+  box-sizing: border-box;
+  display: flex;
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .bubble {
+    display: none;
+  }
+  .indicator-container {
+    text-align: center;
+  }
+  .interaction {
+    text-align: center;
+    width: 100vw;
+  }
+  .me-1-icon,
+  .dev-shapes,
+  .dev-shapes-item  {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .this-is-wilson,
+  .hello {
+    font-size: 1.5rem;
+  }
+  .an-inspired-dev {
+    font-size: 0.75rem;
+  }
+  
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .bubble {
+    display: none;
+  }
+  .indicator-container {
+    text-align: center;
+  }
+  .interaction {
+    text-align: center;
+    width: 100vw;
+  }
+  .me-1-icon,
+  .dev-shapes,
+  .dev-shapes-item  {
+    width: 28.125rem;
+    height: 28.125rem;
+  }
+
+  .this-is-wilson,
+  .hello {
+    font-size: 1.75rem;
+  }
+  .an-inspired-dev {
+    font-size: 1rem;
+  }
+  
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .indicator-container {
+    text-align: center;
+  }
+  .interaction {
+    text-align: center;
+    width: 100vw;
+  }
+  .this-is-wilson,
+  .hello {
+    font-size: 2.25rem;
+  }
+  .an-inspired-dev {
+    font-size: 1.5rem;
+  }
+
+  .dev-shapes-item,
+  .me-1-icon {
+    width: 31.25rem;
+    height: 31.25rem;
+  }
+
+  
+  .bub1 {
+    top: 30%;
+    left: 50%;
+    opacity: 35%;
+  }
+
+  .bub2 {
+    top: 75%;
+    right: 35%;
+    opacity: 25%;
+  }
+
+  .bub3 {
+    width: 14rem;
+    height: 14rem;
+    top: 40%;
+    left: 70%;
+    opacity: 35%;
+  }
+
+  .bub4 {
+    width: 20rem;
+    height: 20rem;
+    top: -7.5rem;
+    right: -7.5rem;
+  }
+
+  .bub5 {
+    width: 10rem;
+    height: 10rem;
+    top: -4.5rem;
+    right: 33.5%;
+  }
+
+  .bub6 {
+    width: 14rem;
+    height: 14rem;
+    bottom: -9rem;
+    right: 5%;
+  }
+  
+}
+
+@media screen and (min-width: 1025px) {
+  .indicator-container {
+    width: 100vw;
+    height: 100vh;
+    padding: 0 20rem;
+    top: 3rem;
+    z-index: 1001;
+  }
+
+  .interaction {
+    top: 50%;
+    left: 10rem;
+    text-align: center;
+  }
+
+  .hello {
+    color: var(--color-black);
+  }
+  .this-is-wilson,
+  .hello {
+    font-size: 3rem;
+  }
+  .an-inspired-dev {
+    font-size: 1.5rem;
+  }
+  .dev-shapes-item,
+  .me-1-icon {
+    width: 33rem;
+    height: 33rem;
+  }
+
+
+  .bub1 {
+    top: 30%;
+    left: 50%;
+    opacity: 35%;
+  }
+
+  .bub2 {
+    top: 75%;
+    right: 35%;
+    opacity: 25%;
+  }
+
+  .bub3 {
+    width: 14rem;
+    height: 14rem;
+    top: 40%;
+    left: 70%;
+    opacity: 35%;
+  }
+
+  .bub4 {
+    width: 20rem;
+    height: 20rem;
+    top: -7.5rem;
+    right: -7.5rem;
+  }
+
+  .bub5 {
+    width: 10rem;
+    height: 10rem;
+    top: -4.5rem;
+    right: 33.5%;
+  }
+
+  .bub6 {
+    width: 14rem;
+    height: 14rem;
+    bottom: -9rem;
+    right: 5%;
+  }
+}
+
+
+.bubble {
+  position: absolute; /* Ensure bubble is positioned relative to its container */
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  top: 0; /* Position at the top of the container */
+  left: 0; /* Position at the left of the container */
+  pointer-events: none; /* Ensure bubbles don't interfere with user interactions */
+  z-index: 0; /* Ensure it’s above other elements */
+}
+
+.bub1,
+.bub2,
+.bub3,
+.bub4,
+.bub5,
+.bub6 {
+  filter: blur(10px);
+  position: absolute;
+  border-radius: 50%;
+}
+
+
+.bub1,
+.bub2 {
+  width: 4rem;
+  height: 4rem;
+}
+
+.bub1,
+.bub2,
+.bub3 {
+  box-shadow: 0 4px 30px 20px rgba(141, 153, 174, 0.3);
+  background-color: #98999C;
+}
+
+.bub4,
+.bub5, 
+.bub6 {
+  
+  opacity: 100%;
+  background-color: #243047;
+}

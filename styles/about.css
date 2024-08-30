@@ -1,0 +1,273 @@
+.header-container-child {
+  position: absolute;
+  margin: 0 !important;
+  filter: blur(50px);
+  border-radius: 50%;
+  background: radial-gradient(50% 50%at 50% 50%, #243047);
+}
+
+.about-me {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(-90deg, #1b263b, #0d1b2a);
+  border: 1px solid var(--color-black);
+  overflow: hidden;
+  flex-direction: column;
+  line-height: normal;
+  letter-spacing: normal;
+  box-sizing: border-box;
+  display: flex;
+}
+.nav-about {
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightslategray);
+  color: var(--color-gray);
+}
+
+
+
+.fulfill {
+  top: 14.25rem;
+}
+
+.study {
+  top: 0;
+  
+}
+
+.free-time {
+  top: 9.5rem;
+  
+}
+
+.passion {
+  top: 4.75rem;
+  
+}
+
+.center-about {
+  letter-spacing: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-3xl);
+  height: 6.5rem;
+  flex-shrink: 0;
+  transform: rotate(90deg);
+}
+.center-name {
+  position: absolute;
+  top: 0;
+  height: 19rem;
+  background-color: var(--color-darkslategray);
+  width: 5rem;
+  display: flex;
+  text-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  color: var(--color-darkgray);
+}
+
+
+.to-fulfill, .curretly-studying, .in-free-time, .passionate-about {
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 0.12em;
+  text-wrap: wrap;
+}
+
+.fulfill, .study, .free-time, .passion {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+  width: 9rem;
+  height: 4.75rem;
+  overflow: hidden;
+}
+
+.study, .free-time {
+  right: 2.5rem;
+  background-color: var(--color-darkgray);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  
+}
+
+.fulfill, .passion {
+  left: 2.5rem;
+  background-color: var(--color-lightslategray);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+
+.frame-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 3rem;
+  font-family: var(--font-sen);
+  
+}
+
+.frame {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .navigation-container {
+    padding: 0 0 2rem;
+  }
+  .frame-wrapper {
+    padding-top: 0;
+  }
+  .fulfill, .study, .free-time, .passion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.125rem;
+    height: 7rem;
+    width: 12rem;
+    inset: 0;
+    
+  }
+  .center-about {
+    font-size: var(--font-size-17xl);
+    letter-spacing: 10px;
+  }
+
+  .center-name {
+    width: 6rem;
+    height: 28rem;
+  }
+
+  .study, .free-time {
+    left: -15rem;
+  }
+
+  .fulfill, .passion {
+    left: 3rem;
+  }
+
+  .passion {
+    top: 7rem;
+  }
+  .free-time {
+    top: 14rem;
+  }
+  .fulfill {
+    top: 21rem;
+  }
+
+  
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .navigation-container {
+    padding: 0;
+  }
+  .frame-wrapper {
+    padding-top: 0;
+  }
+  
+  .fulfill, .study, .free-time, .passion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.25rem;
+    height: 8rem;
+    width: 18rem;
+    inset: 0;
+    
+  }
+  .center-about {
+    font-size: 3rem;
+    letter-spacing: 20px;
+  }
+
+  .center-name {
+    width: 10rem;
+    height: 32rem;
+  }
+
+  .study, .free-time {
+    left: -23rem;
+  }
+
+  .fulfill, .passion {
+    left: 5rem;
+  }
+
+  .passion {
+    top: 8rem;
+  }
+  .free-time {
+    top: 16rem;
+  }
+  .fulfill {
+    top: 24rem;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .navigation-container {
+    padding: 0 0 2rem;
+  }
+  .frame-wrapper {
+    padding-top: 0;
+  }
+  
+  .fulfill, .study, .free-time, .passion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    height: 8rem;
+    width: 25rem;
+    inset: 0;
+    
+  }
+  .center-about {
+    font-size: 3rem;
+    letter-spacing: 20px;
+  }
+
+  .center-name {
+    width: 10rem;
+    height: 32rem;
+  }
+
+  .study, .free-time {
+    left: -30rem;
+  }
+
+  .fulfill, .passion {
+    left: 5rem;
+  }
+
+  .passion {
+    top: 8rem;
+  }
+  .free-time {
+    top: 16rem;
+  }
+  .fulfill {
+    top: 24rem;
+  }
+}

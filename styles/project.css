@@ -1,0 +1,136 @@
+.header-container-child,
+.my-project-child {
+  position: absolute;
+  margin: 0 !important;
+  filter: blur(50px);
+  border-radius: 50%;
+  background: radial-gradient(50% 50%at 50% 50%, #243047);
+}
+
+
+.my-project {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(-90deg, #1b263b, #0d1b2a);
+  border: 1px solid var(--color-black);
+  overflow: hidden;
+  flex-direction: column;
+  line-height: normal;
+  letter-spacing: normal;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.nav-project {
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightslategray);
+  color: var(--color-gray);
+}
+
+.navigation-container {
+  padding: 0;
+}
+
+.market-icon,
+.bank-icon {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  object-fit: cover;
+  width: 13rem;
+  height: 14.8125rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.market-container,
+.bank-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-3xl) 0 var(--padding-xl);
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  color: var(--color-black);
+  font-family: var(--font-mukta);
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .navigation-container {
+    padding: 0 0 7.5rem;
+  }
+  .container {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  
+  .navigation-container {
+    padding: 0 0 4rem;
+  }
+  .container {
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+  .market-icon,
+  .bank-icon {
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-xs);
+    overflow: hidden;
+    object-fit: cover;
+    width: 20rem;
+    height: 14.8125rem;
+  }
+  
+}
+
+@media screen and (min-width: 1025px) {
+  
+  .navigation-container {
+    padding: 0 0 3rem;
+  }
+
+  .container {
+    flex-direction: row;
+    gap: 5rem;
+  }
+
+  .market-icon,
+  .bank-icon {
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-xs);
+    overflow: hidden;
+    object-fit: cover;
+    width: 25rem;
+    height: 14.8125rem;
+  }
+
+}
