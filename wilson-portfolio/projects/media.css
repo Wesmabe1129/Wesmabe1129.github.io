@@ -25,12 +25,12 @@
         min-width: 700px;
         max-width: 1000px;
         gap: .5rem;
-        grid-template-columns: 0.25fr 1.5fr 2fr 0.25fr;
+        grid-template-columns: 1.5fr 2fr;
         grid-template-rows: 1.7fr 1fr .5fr;
         grid-template-areas:
-            "next-left image-card image-card next-right"
-            "next-left language-card description-card next-right"
-            "next-left button description-card next-right"
+            "image-card image-card"
+            "language-card description-card"
+            "button description-card"
         ;
     }
 
