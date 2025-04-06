@@ -44,7 +44,7 @@
         right: 0;
         bottom: 0;
         min-width: 100px;
-        max-width: 400px;
+        max-width: 600px;
         width: auto;
         height: auto;
         min-height: 20px;
@@ -63,8 +63,8 @@
 
     /* Responsive Typography https://youtu.be/erqRw3E-vn4?si=pWYE4uyBxWE0UZSm */
     .navbar ul {
-        font-size: 1rem;
-        gap: 2.7rem;
+        font-size: 1.25rem;
+        gap: 3rem;
     }
 
     .navigation-stop {
